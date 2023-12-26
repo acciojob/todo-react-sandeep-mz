@@ -1,1 +1,37 @@
+/* App.css */
 
+/* Resetting default margin and padding for better alignment */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Centering content within the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the To-Do List container */
+main {
+  text-align: center;
+}
+
+/* Remove text decoration from list items */
+ul {
+  list-style: none;
+   
+}
+
+li {
+  text-decoration: none;
+  margin-bottom: 10px; /* Space between each list item */
+}
+
+/* Styling for input and button */
+input[type="text"],
+button {
+  margin-bottom: 10px;
+}
